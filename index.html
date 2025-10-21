@@ -8,10 +8,32 @@
   </head>
   <body>
     <header>
-      <h1>AI Content Generator</h1>
+      <h1>AI Zen Koan Generator</h1>
     </header>
     <main>
-      <p>Future content here</p>
+      <section id="generator">
+        <p>[Future instructions here]</p>
+        <input
+          type="text"
+          name="text-input"
+          id="text-input"
+          placeholder="Enter the topic of the koan"
+          required
+          autofocus
+          autocomplete="off"
+        />
+        <input type="submit" value="Submit" />
+      </section>
+      <section id="generated">
+        <p>
+          KOAN: Linji said, “There is a true person with no rank, who is always
+          coming and going through the portals of your face.”
+        </p>
+        <p>
+          – PZI Miscellaneous Koans, Case 38b (Record of Linji) & Book of
+          Serenity, Case 38
+        </p>
+      </section>
     </main>
     <footer>
       <a

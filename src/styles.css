@@ -1,0 +1,17 @@
+body {
+  background-color: midnightblue;
+  color: hotpink;
+  text-align: center;
+}
+
+footer a {
+  color: hotpink;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer a:active {
+  font-weight: bold;
+}

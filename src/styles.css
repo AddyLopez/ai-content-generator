@@ -25,6 +25,19 @@ form {
   width: 90%;
 }
 
+header,
+footer,
+#generated,
+#generator {
+  background-color: white;
+  border: 1px solid #1a2733;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px #899dad;
+  color: #1a2733;
+  padding: 15px;
+  margin: 35px 0;
+}
+
 input {
   text-align: center;
   border: #1a2733;
@@ -32,9 +45,10 @@ input {
   padding: 15px;
 }
 
-p {
+#generated p {
   margin: 0;
   padding: 15px;
+  border-left: 3px solid #ad4d00;
 }
 
 #text-input {
@@ -46,30 +60,26 @@ p {
 
 #submit-input {
   background-color: #1a2733;
+  box-shadow: 1px 1px 1px #899dad;
   color: white;
   letter-spacing: 0.5px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-header,
-footer,
-#generated,
-#generator {
-  background-color: white;
-  border: 1px solid #1a2733;
-  border-radius: 7px;
-  box-shadow: 17px 17px 2px #899dad;
-  color: #1a2733;
-  padding: 15px;
-  margin: 35px 0;
-}
-
 footer a {
-  color: #8c89ad;
+  color: #1a2733;
 }
 
 footer a:hover {
+  color: #ad4d00;
+  cursor: pointer;
+}
+
+#submit-input:hover {
+  background-color: #ad4d00;
+  box-shadow: 1px 1px 1px #1a2733;
   color: white;
+  cursor: pointer;
 }
 
 footer a:active {

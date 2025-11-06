@@ -1,6 +1,5 @@
 body {
-  background-color: #adac89;
-  color: #2c1a33;
+  background-color: #1a2733;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -16,10 +15,53 @@ header {
 }
 
 footer {
+  font-size: 14px;
   margin: 20px 0;
   text-align: center;
+}
 
-  font-size: 14px;
+form {
+  margin: 0 auto;
+  width: 90%;
+}
+
+input {
+  text-align: center;
+  border: #1a2733;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+p {
+  margin: 0;
+  padding: 15px;
+}
+
+#text-input {
+  border: 1px solid #1a2733;
+  margin-right: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 75%;
+}
+
+#submit-input {
+  background-color: #1a2733;
+  color: white;
+  letter-spacing: 0.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header,
+footer,
+#generated,
+#generator {
+  background-color: white;
+  border: 1px solid #1a2733;
+  border-radius: 7px;
+  box-shadow: 17px 17px 2px #899dad;
+  color: #1a2733;
+  padding: 15px;
+  margin: 35px 0;
 }
 
 footer a {

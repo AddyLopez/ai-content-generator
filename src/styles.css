@@ -46,7 +46,7 @@ input {
 }
 
 #generated p {
-  margin: 0;
+  margin: 10px 0;
   padding: 15px;
   border-left: 3px solid #ad4d00;
 }
@@ -84,4 +84,9 @@ footer a:hover {
 
 footer a:active {
   font-weight: 900;
+}
+
+.highlight {
+  color: #ad4d00;
+  font-weight: bold;
 }

@@ -1,17 +1,15 @@
-const displayContent = () => {
-  alert("Content displayed!");
-};
-
-const generateContent = (event) => {
-  event.preventDefault();
-
+const displayContent = (response) => {
+  console.log("Displaying content...");
   new Typewriter("#generated", {
-    strings:
-      "El corazón antañón viajará de regreso al ritmo ya olvidado de la vieja ilusión.",
+    strings: response.data.answer,
     autoStart: true,
     delay: 1,
     cursor: "",
   });
+};
+
+const generateContent = (event) => {
+  event.preventDefault();
 
   const apiKey = "085ca3tcfao1ca19876ded9ba834fb7c";
 

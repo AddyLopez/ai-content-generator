@@ -38,6 +38,10 @@ footer,
   margin: 35px 0;
 }
 
+p {
+  line-height: 1.4;
+}
+
 input {
   text-align: center;
   border: #1a2733;
@@ -66,11 +70,11 @@ input {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-footer a {
+a {
   color: white;
 }
 
-footer a:hover {
+a:hover {
   color: #ad4d00;
   cursor: pointer;
 }
@@ -82,7 +86,7 @@ footer a:hover {
   cursor: pointer;
 }
 
-footer a:active {
+a:active {
   font-weight: 900;
 }
 

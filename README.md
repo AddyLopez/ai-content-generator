@@ -18,7 +18,7 @@ To use the application, enter a topic in the search bar. SheCodes AI will then g
 
 - **_HTML:_** accessible semantic tags, form handling, functional search bar, logical structure
 
-- **_UI/UX Considerations_**: accessible and responsive web design, placeholder text on initial load where output will appear, clear indication that the AI is generating results for the given search term while the user waits for the response (e.g. "**Generating poem about grasshoppers...** )
+- **_UI/UX Considerations_**: accessible and responsive web design, placeholder text on initial load where output will appear, clear indication that the AI is generating results for the given search term while the user waits for the response (e.g. "_Generating poem about grasshoppers..._" )
 
 - Coded in VS Code with tools for a **_professional development workflow, version control, and continuous deployment_**, such as Live Server, Git, GitHub, and hosting on Netlify
 

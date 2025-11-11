@@ -4,7 +4,9 @@
 
 ## Description & Usage
 
-This application was built in HTML, CSS, and JavaScript and integrates with the SheCodes Artificial Intelligence API to generate dynamic content based on the user's input. Enter a topic in the search bar. SheCodes AI will then generate a poem in Spanish about that topic.
+This application was built in HTML, CSS, and JavaScript and integrates with the SheCodes Artificial Intelligence API to generate dynamic content based on the user's input.
+
+To use the application, enter a topic in the search bar. SheCodes AI will then generate a poem in Spanish about that topic.
 
 ## Coding Features
 

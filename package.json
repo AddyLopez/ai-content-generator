@@ -1,4 +1,5 @@
 {
+  "start": "node ./src/index.js",
   "dependencies": {
     "progressbar.js": "^1.1.1"
   }

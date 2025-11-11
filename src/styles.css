@@ -3,17 +3,10 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-div.app-container {
+div.container {
   padding: 10px;
   max-width: 600px;
   margin: 0 auto;
-}
-
-#container {
-  margin: 20px;
-  width: 400px;
-  height: 8px;
-  position: relative;
 }
 
 header {

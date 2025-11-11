@@ -4,13 +4,13 @@
 
 ## Description & Usage
 
-This application was built in HTML, CSS, and JavaScript and integrates with the SheCodes Artificial Intelligence API to generate dynamic content based on the user's input.
+This bilingual (English to Spanish) application was built in HTML, CSS, and JavaScript and integrates with the SheCodes Artificial Intelligence API to generate dynamic content based on the user's input.
 
 To use the application, enter a topic in the search bar. SheCodes AI will then generate a poem in Spanish about that topic.
 
 ## Coding Features
 
-- **_Artificial Intelligence:_** prompt engineering with precise contextual instructions to curate and style the generated output. The AI is specifically instructed in my code to produce the results in HTML with appropriate line breaks, to apply a CSS class to the translated search term for textual highlighting if it appears in the poem, and to sign each poem at the end with "SheCodes AI."
+- **_Artificial Intelligence:_** prompt engineering with precise contextual instructions to curate and style the generated output. The AI is a literary assistant specifically instructed in my code to produce the results in Spanish in HTML with appropriate line breaks, to apply a CSS class to the translated search term for textual highlighting if it appears in the poem, and to sign each poem at the end with "SheCodes AI."
 
 - **_JavaScript:_** Typewriter Plugin for generated AI text, integration with AI API using a public API key and AXIOS, form handling of user input, dynamic injection of generated text into the HTML skeleton
 

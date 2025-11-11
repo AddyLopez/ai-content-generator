@@ -1,5 +1,5 @@
 body {
-  background-color: #1a2733;
+  background-color: #1b2a33;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -44,7 +44,7 @@ p {
 
 input {
   text-align: center;
-  border: #1a2733;
+  border: #1b2a33;
   border-radius: 20px;
   padding: 15px;
 }
@@ -52,18 +52,18 @@ input {
 #generated p {
   margin: 10px 0;
   padding: 15px;
-  border-left: 3px solid #ad4d00;
+  border-left: 3px solid #eb6600;
 }
 
 #text-input {
-  border: 1px solid #1a2733;
+  border: 1px solid #1b2a33;
   margin-right: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   width: 75%;
 }
 
 #submit-input {
-  background-color: #1a2733;
+  background-color: #1b2a33;
   border: 1px solid white;
   color: white;
   letter-spacing: 0.5px;
@@ -75,12 +75,12 @@ a {
 }
 
 a:hover {
-  color: #ad4d00;
+  color: #eb6600;
   cursor: pointer;
 }
 
 #submit-input:hover {
-  background-color: #ad4d00;
+  background-color: #eb6600;
   box-shadow: 1px 1px 1px #1a2733;
   color: white;
   cursor: pointer;
@@ -91,6 +91,6 @@ a:active {
 }
 
 .highlight {
-  color: #ad4d00;
+  color: #eb6600;
   font-weight: bold;
 }

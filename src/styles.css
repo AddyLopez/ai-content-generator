@@ -4,24 +4,18 @@ body {
   font-family: "Simonetta", serif;
 }
 
-h1 {
-  font-weight: normal;
-}
-
 div.container {
   padding: 10px;
   max-width: 600px;
   margin: 0 auto;
 }
 
-header {
-  display: block;
-  text-align: center;
+h1 {
+  font-weight: normal;
 }
 
-footer {
-  font-size: 14px;
-  margin: 20px 0;
+header {
+  display: block;
   text-align: center;
 }
 
@@ -30,6 +24,12 @@ form {
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+
+footer {
+  font-size: 14px;
+  margin: 20px 0;
+  text-align: center;
 }
 
 header,
@@ -43,15 +43,21 @@ footer,
   margin: 35px 0;
 }
 
-p {
-  line-height: 1.4;
+a {
+  color: white;
 }
 
-input {
-  text-align: center;
-  border: #1b2a33;
-  border-radius: 20px;
-  padding: 15px;
+a:hover {
+  color: #eb6600;
+  cursor: pointer;
+}
+
+a:active {
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.4;
 }
 
 #generated p {
@@ -60,12 +66,11 @@ input {
   border-left: 3px solid #eb6600;
 }
 
-#text-input {
-  border: 1px solid #1b2a33;
-  margin-right: 10px;
-  font-family: "Simonetta", serif;
-  width: 75%;
-  letter-spacing: 0.5px;
+input {
+  text-align: center;
+  border: #1b2a33;
+  border-radius: 20px;
+  padding: 15px;
 }
 
 #submit-input {
@@ -76,15 +81,6 @@ input {
   font-family: "Simonetta", serif;
 }
 
-a {
-  color: white;
-}
-
-a:hover {
-  color: #eb6600;
-  cursor: pointer;
-}
-
 #submit-input:hover {
   background-color: #eb6600;
   box-shadow: 1px 1px 1px #1a2733;
@@ -92,10 +88,14 @@ a:hover {
   cursor: pointer;
 }
 
-a:active {
-  font-weight: 900;
+#text-input {
+  border: 1px solid #1b2a33;
+  margin-right: 10px;
+  font-family: "Simonetta", serif;
+  width: 75%;
+  letter-spacing: 0.5px;
 }
-
+/* Utility class */
 .highlight {
   color: #eb6600;
   font-weight: bold;

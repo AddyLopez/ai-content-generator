@@ -28,4 +28,5 @@ This application was built in HTML, CSS, and JavaScript and integrates with the 
 
 ## Attribution
 
-SheCodes AI API Documentation: [https://www.shecodes.io/learn/apis/ai](https://www.shecodes.io/learn/apis/ai)
+- SheCodes AI API Documentation: [https://www.shecodes.io/learn/apis/ai](https://www.shecodes.io/learn/apis/ai)
+- TypewriterJS Plugin: [https://github.com/tameemsafi/typewriterjs](https://github.com/tameemsafi/typewriterjs)

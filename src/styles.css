@@ -1,6 +1,12 @@
 body {
   background-color: #1b2a33;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+  letter-spacing: 1px;
+  font-family: "Simonetta", serif;
+}
+
+h1 {
+  font-weight: normal;
 }
 
 div.container {
@@ -58,8 +64,9 @@ input {
 #text-input {
   border: 1px solid #1b2a33;
   margin-right: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Simonetta", serif;
   width: 75%;
+  letter-spacing: 0.5px;
 }
 
 #submit-input {
@@ -67,7 +74,7 @@ input {
   border: 1px solid white;
   color: white;
   letter-spacing: 0.5px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Simonetta", serif;
 }
 
 a {

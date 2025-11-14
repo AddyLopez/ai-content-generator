@@ -26,7 +26,7 @@ To use the application, enter a topic in the search bar. SheCodes AI will then g
 
 - **_Accessibility rating_** by Lighthouse audit: 100/100 for desktops, 100/100 for mobile devices.
 
-## Project Previews
+## Project Preview
 
 ![AI Spanish Poem Generator preview](./preview/ai-spanish-poem-generator-preview.png)
 
